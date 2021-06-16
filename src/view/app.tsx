@@ -3,17 +3,17 @@ import { useEffect, useState } from "preact/hooks";
 import "../scss/game.scss";
 
 const App = () => {
-  const [rand, setRand] = useState<string>("");
+  const [rand, setRand] = useState<string>("Hello  World!");
 
   useEffect(() => {
-    console.log("Web-app loaded!");
+    console.log("Web-apps loaded!");
   }, []);
 
   return (
     <>
-      <div>{rand}</div>
+      <div>{rand}!</div>
       <div>
-        <input value={rand} onChange={(e) => setRand(e.target.value)} />
+        <input value={rand} onChange={(e: Event) => setRand((e.target as HTMLInputElement).value)} />
       </div>
     </>
   );

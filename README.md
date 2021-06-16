@@ -1,5 +1,9 @@
 # minimal-web_template
 
+## How to run?
+- Install Caddy [https://caddyserver.com/docs/install]
+- Install npm packages (npm i || yarn)
+- yarn start
 ## What is this?
 
 This is a web_development environment template.
@@ -8,17 +12,18 @@ I'm not a big fan of those, and there is always an alternative.
 
 ### Dependencies installed
 - estrella (esbuild) [https://github.com/rsms/estrella] [https://github.com/evanw/esbuild]
-- esbuild-plugin-sass (currently not working v0.5.1) [https://github.com/koluch/esbuild-plugin-sass]
+- @es-pack/esbuild-sass-plugin [https://github.com/Csszabi98/es-pack/tree/main/plugins/esbuild-sass-plugin]
 - livereload [https://github.com/napcs/node-livereload]
 - preact [https://preactjs.com/guide/v10/getting-started]
 - Caddy  [https://caddyserver.com/docs/]
 
 ### Dependencies used for
 - estrella: Used as a bundler, that can watch source files and make changes to outDir.
-- esbuild-plugin-sass: A esbuild plugin, that compiles sccs files to css
+- @es-pack/esbuild-sass-plugin: A esbuild plugin, that compiles sccs files to css
 - livereload: Livereload code
 - Preact: React alternative (Much smaller)
 - Caddy: DevServer
+
 ### DevServer
 This template uses Caddy as a DevServer
 
