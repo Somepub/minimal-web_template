@@ -33,7 +33,6 @@
   "homepage": "https://github.com/Somepub/minimal-web_template#readme",
   "devDependencies": {
     "@es-pack/esbuild-sass-plugin": "^1.0.4",
-    "esbuild-plugin-sass": "0.4.1",
     "estrella": "^1.4.1",
     "livereload": "^0.9.3"
   },
