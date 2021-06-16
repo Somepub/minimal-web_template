@@ -1,0 +1,38 @@
+{
+  "name": "minimal-web_template",
+  "version": "1.0.0",
+  "description": "A template repo that let's you make web development easier without Webpack and Rollup.",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Somepub/minimal-web_template.git"
+  },
+  "keywords": [
+    "estrella",
+    "esbuild",
+    "watcher",
+    "no_webpack",
+    "no_rollup",
+    "Caddy"
+  ],
+  "author": "Mallor Kingsepp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Somepub/minimal-web_template/issues"
+  },
+  "homepage": "https://github.com/Somepub/minimal-web_template#readme",
+  "devDependencies": {
+    "esbuild-plugin-sass": "0.5.0",
+    "estrella": "^1.4.1",
+    "livereload": "^0.9.3"
+  },
+  "dependencies": {
+    "preact": "^10.5.12"
+  },
+  "scripts": {
+    "start": "yarn watch & yarn serve",
+    "serve": "caddy run --config ./Caddyfile",
+    "watch": "node build.js --watch",
+    "build": "node build.js"
+  }
+}
