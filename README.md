@@ -1,12 +1,13 @@
 # minimal-web_template
 
+const { ❤️ } = BOILERPLATE(ESBUILD + ESTRALLA + CADDY + SCSS + PREACT)
+
 ## How to run?
 - Install Caddy [https://caddyserver.com/docs/install]
 - Install npm packages (npm i || yarn)
 - yarn start
 ## What is this?
-
-This is a web_development environment template.
+This is a web_development environment template. (BOILERPLATE)
 Usually, people use Webpack, Rollup, or Parcel to develop with WEB.
 I'm not a big fan of those, and there is always an alternative.
 
