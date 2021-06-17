@@ -1,4 +1,4 @@
-# minimal-web_template
+# minimal-web_boilerplate
 
 const { ❤️ } = BOILERPLATE(ESBUILD + ESTRALLA + CADDY + SCSS + PREACT)
 
