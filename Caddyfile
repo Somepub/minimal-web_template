@@ -5,15 +5,15 @@
 }
 
 :80 {
-	bind 0.0.0.0
-
 	@api path /api*
 	uri @api strip_prefix /api
 	reverse_proxy @api {
 		to 127.0.0.1:8080
 	}
 
-	file_server * {
-		root ./dist
-	}
+	root * ./dist
+	encode gzip
+
+	try_files {path} /
+	file_server
 }
